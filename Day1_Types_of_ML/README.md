@@ -1,39 +1,35 @@
-# Machine Learning Knowledge Base & Implementations
+# Machine Learning Core Concepts & Foundations
 
-This repository serves as a centralized technical archive of my machine learning knowledge, code implementations, and foundational study notes. It provides transparent proof of my understanding across data preprocessing, core algorithms, mathematical foundations, and model optimization.
-
-## 📂 Repository Structure
-* `/notes` - Conceptual documentation, math derivations, and theoretical definitions.
-* `/notebooks` - Algorithmic implementations, feature engineering scripts, and exploratory data analysis.
+This repository contains my conceptual notes, structural overviews, and theoretical foundations of Machine Learning. It serves as a clear map of my understanding of ML paradigms, data types, and core system architectures.
 
 ---
 
 ## 🧠 Core Competencies & Topic Coverage
 
-The code and notes contained in this repository comprehensively cover the following machine learning subfields:
+### 1. Machine Learning Paradigms
+* **Supervised Learning:** Classification (Binary/Multi-class) and Regression.
+* **Unsupervised Learning:** Clustering, Dimensionality Reduction, Association Rules, and Anomaly Detection.
+* **Hybrid Systems:** Semi-supervised Learning and Reinforcement Learning (Markov Decision Processes).
 
-### 1. Data Preprocessing & Feature Engineering
-* **Data Cleaning:** Handling missing data (Univariate and Multivariate imputation strategies), outlier detection, and removal techniques.
-* **Feature Transformation & Construction:** Mathematical scaling (Standardization vs. Normalization), handling categorical features (One-Hot, Ordinal, and Target Encoding), and mathematical transformations (Log, Reciprocal, Box-Cox).
-* **Pipeline Automation:** Building structured Scikit-Learn `Pipelines` and using `ColumnTransformers` to prevent data leakage.
+### 2. Data Typologies & Structures
+* **Statistical Types:** Quantitative (Continuous vs. Discrete) and Qualitative (Nominal vs. Ordinal).
+* **Structural Formats:** Structured, Unstructured, and Semi-Structured data management.
 
-### 2. Supervised Learning: Regression & Classification
-* **Linear & Generalized Models:** Linear Regression (with Gradient Descent optimization from scratch), Logistic Regression for binary/multiclass classification, and Regularization frameworks (Ridge, Lasso, and ElasticNet).
-* **Instance-Based & Generative Models:** K-Nearest Neighbors (KNN), Naive Bayes Classifiers, and Support Vector Machines (SVM).
-* **Tree-Based & Ensemble Architectures:** Decision Trees, Bagging methods (Random Forest), Boosting frameworks (AdaBoost, Gradient Boosting, XGBoost), and Voting/Stacking Classifiers.
+### 3. Engineering Learning Strategies
+* **Batch vs. Online:** Full-dataset offline retraining versus step-by-step real-time streaming updates.
+* **Instance vs. Model-Based:** Data memorization (e.g., KNN) versus mathematical trend generalization (e.g., Linear Regression, SVM).
 
-### 3. Unsupervised Learning & Dimensionality Reduction
-* **Clustering Analysis:** K-Means Clustering (using the Elbow Method and Silhouette Scores) and Hierarchical Clustering.
-* **Dimensionality Reduction:** Principal Component Analysis (PCA) for feature extraction and variance analysis.
+### 4. Machine Learning Development Life Cycle (MLDLC)
+Structured execution of the 9 engineering phases:
+1. Problem Framing ➔ 2. Data Gathering ➔ 3. Preprocessing ➔ 4. EDA ➔ 5. Feature Engineering ➔ 6. Training & Tuning ➔ 7. Deployment ➔ 8. Testing ➔ 9. Optimization
 
-### 4. Evaluation Metrics & Hyperparameter Optimization
-* **Performance Assessment:** Precision, Recall, F1-Score, ROC-AUC for classification, alongside MAE, MSE, and RMSE for regression.
-* **Validation & Search:** Implementations of K-Fold Cross-Validation, GridSearch, and RandomizedSearchCV for hyperparameter tuning.
+### 5. Architectural & Production Challenges
+* **Pipelines:** Data Drift, Concept Drift, Feature Leakage, and Data Sparsity.
+* **Algorithms:** Overfitting (High Variance), Underfitting (High Bias), and Gradient Anomalies.
+* **Deployment:** Catastrophic Forgetting, Black Box Dilemma, Cold Start, and Class Imbalance.
 
 ---
 
 ## 🛠️ Tech Stack & Tooling
-* **Programming Languages:** Python
-* **Data & Science Stack:** NumPy, Pandas, Scikit-Learn
-* **Visualization Stack:** Matplotlib, Seaborn
+* **Language:** Python
 * **Workspaces:** Jupyter Notebooks / VS Code
