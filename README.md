@@ -1,39 +1,35 @@
-# CampusX 100 Days of Machine Learning - Notes & Implementation
+# Machine Learning Knowledge Base & Implementations
 
-This repository is my personal technical proof-of-work tracking my progress through Nitish Singh's (CampusX) "100 Days of Machine Learning" program. It serves as a transparent map for recruiters to see exactly what concepts I understand, what algorithms I have studied, and the code I have written.
-
-## 📂 Repository Structure
-* `/notes` - Conceptual breakdowns, mathematical derivations, and lecture takeaways.
-* `/notebooks` - Hands-on practice scripts, data cleaning steps, and algorithm implementations.
+This repository serves as a centralized technical archive of my machine learning knowledge, code implementations, and foundational study notes. It provides transparent proof of my understanding across data preprocessing, core algorithms, mathematical foundations, and model optimization.
 
 ---
 
-## 🎯 Curriculum Tracking & Core Competencies
+## 🧠 Core Competencies & Topic Coverage
 
-This log directly tracks the modular milestones taught in the curriculum. I have completed and documented code for the following domains:
+The code and notes contained in this repository comprehensively cover the following machine learning subfields:
 
 ### 1. Data Preprocessing & Feature Engineering
-* **Data Cleaning:** Handling missing values (Univariate/Multivariate imputation), handling outlier detection and removal.
-* **Feature Transformation:** Mathematical transformations (Log, Reciprocal, Box-Cox), handling categorical data (One-Hot Encoding, Ordinal Encoding), and Feature Scaling (Standardization vs. Normalization).
-* **Advanced Pipeline Work:** Column Transformers, Sklearn Pipelines, and handling imbalanced datasets (SMOTE).
+* **Data Cleaning:** Handling missing data (Univariate and Multivariate imputation strategies), outlier detection, and removal techniques.
+* **Feature Transformation & Construction:** Mathematical scaling (Standardization vs. Normalization), handling categorical features (One-Hot, Ordinal, and Target Encoding), and mathematical transformations (Log, Reciprocal, Box-Cox).
+* **Pipeline Automation:** Building structured Scikit-Learn `Pipelines` and using `ColumnTransformers` to prevent data leakage.
 
-### 2. Core Machine Learning Algorithms
-* **Regression:** Linear Regression (with Gradient Descent math from scratch), Ridge, Lasso, and ElasticNet.
-* **Classification:** Logistic Regression, Support Vector Machines (SVM), K-Nearest Neighbors (KNN), and Naive Bayes.
-* **Tree-based & Ensemble Methods:** Decision Trees, Bagging (Random Forest), Boosting (AdaBoost, Gradient Boost, XGBoost), and Voting/Stacking classifiers.
+### 2. Supervised Learning: Regression & Classification
+* **Linear & Generalized Models:** Linear Regression (with Gradient Descent optimization from scratch), Logistic Regression for binary/multiclass classification, and Regularization frameworks (Ridge, Lasso, and ElasticNet).
+* **Instance-Based & Generative Models:** K-Nearest Neighbors (KNN), Naive Bayes Classifiers, and Support Vector Machines (SVM).
+* **Tree-Based & Ensemble Architectures:** Decision Trees, Bagging methods (Random Forest), Boosting frameworks (AdaBoost, Gradient Boosting, XGBoost), and Voting/Stacking Classifiers.
 
-### 3. Evaluation & Optimization
-* **Metrics:** Accuracy, Precision-Recall, F1-Score, ROC-AUC, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
-* **Validation:** K-Fold Cross-Validation and Stratified K-Fold.
-* **Tuning:** GridSearch campaigns and RandomizedSearchCV parameter optimizations.
+### 3. Unsupervised Learning & Dimensionality Reduction
+* **Clustering Analysis:** K-Means Clustering (using the Elbow Method and Silhouette Scores) and Hierarchical Clustering.
+* **Dimensionality Reduction:** Principal Component Analysis (PCA) for feature extraction and variance analysis.
 
-### 4. Dimensionality Reduction & Unsupervised Learning
-* **Dimensionality Reduction:** Principal Component Analysis (PCA) intuition and variance analysis.
-* **Clustering:** K-Means Clustering (Elbow Method & Silhouette Score Analysis) and Hierarchical Clustering.
+### 4. Evaluation Metrics & Hyperparameter Optimization
+* **Performance Assessment:** Precision, Recall, F1-Score, ROC-AUC for classification, alongside MAE, MSE, and RMSE for regression.
+* **Validation & Search:** Implementations of K-Fold Cross-Validation, GridSearch, and RandomizedSearchCV for hyperparameter tuning.
 
 ---
 
-## 🛠️ Environment & Tools Used
-* **Languages:** Python
-* **Libraries:** NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn
-* **Environment:** Jupyter Notebooks / VS Code
+## 🛠️ Tech Stack & Tooling
+* **Programming Languages:** Python
+* **Data & Science Stack:** NumPy, Pandas, Scikit-Learn
+* **Visualization Stack:** Matplotlib, Seaborn
+* **Workspaces:** Jupyter Notebooks / VS Code
